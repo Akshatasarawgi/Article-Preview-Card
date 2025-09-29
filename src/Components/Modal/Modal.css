@@ -1,0 +1,33 @@
+.shareModal {
+    background-color: var( --very-dark-grayish-blue);
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 4%;
+    border-radius: 10px;
+    align-items: center;
+    align-self: flex-end;
+    transform: translate(80px,0px);
+}
+.shareModal h1 {
+    letter-spacing: 4px;
+    color: var(--light-grayish-blue);
+    font-size: 18px;
+    font-weight: 100;
+}
+.shareModal a{
+    line-height: 1;
+}
+.shareModal a:hover{
+    transform: scale(1.2);
+}
+.shareModal::after {
+   content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 65%;
+  transform: translateX(-50%);
+  border-width: 10px;
+  border-style: solid;
+  border-color: var( --very-dark-grayish-blue) transparent transparent transparent; 
+}

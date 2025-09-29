@@ -1,0 +1,124 @@
+main {
+    display: flex;
+    margin: 18% auto;
+    max-width: 900px;
+    height: max-content;
+}
+
+.card-image {
+    max-width: 380px;
+    height: 360px;
+    object-fit: cover;
+    object-position: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#info-card {
+    max-width: 500px;
+    background-color: #FFFFFF;
+    height: 360px;
+    padding: 3% 4%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-details h1 {
+    color: var(--very-dark-grayish-blue);
+    margin-top: 2%;
+}
+.card-details p {
+    margin-top: 4%;
+    color: var(--desaturated-dark-blue);
+}
+.writer-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.writer-details > :first-child {
+    display: flex;
+    width: 60%;
+}
+.writer-details > :first-child img {
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   margin-right: 5%;
+   cursor: pointer
+}
+.writer-details > :first-child h2 {
+    font-size: 20px;
+    color: var(--very-dark-grayish-blue);
+    cursor: pointer
+}
+.writer-details > :first-child h3 {
+    font-size: 16px;
+    margin-top: 2%;
+    color: var(--desaturated-dark-blue);
+}
+.writer-details button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--light-grayish-blue);
+    border: none;
+}
+.writer-details button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media (max-width : 860px) {
+    main {
+        flex-direction: column;
+        width: 100%;
+    }
+    .card-image {
+        min-width: 700px;
+        min-height: 600px;
+        object-fit: cover;
+        object-position: bottom; 
+        margin: 0 auto;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+    }
+    #info-card {
+        min-width: 700px;
+        height: 550px;
+        margin: 0 auto; 
+        padding: 3%;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0px;
+    }
+    .card-details h1 {
+        font-size: 30px;
+    }
+    .card-details p {
+        font-size: 28px;
+    }
+    .writer-details > :first-child h2 {
+        font-size: 28px;
+    }
+    .writer-details {
+        margin: 2% 0;
+    }
+    .writer-details > :first-child h3 {
+        font-size: 27px;
+        margin-top: 5%;
+    }   
+    .writer-details > :first-child img {
+        height: 100px;
+        width: 100px;
+        margin-right: 10%;
+    }
+    .writer-details button {
+        width: 70px;
+        height: 70px;
+    }
+    .share-image {
+        height: 25px;
+    }
+}
