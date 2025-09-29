@@ -24,7 +24,7 @@ function ShareFooter({handleClick}) {
                     <img src={pinterestIcon} alt="pinterest link" />
                 </a>
             </div>  
-            <button onClick={handleClick}><img className="share-image" src={shareImage} alt="share button"/></button>  
+            <button onClick={handleClick} aria-label='share this article'><img className="share-image" src={shareImage} alt="share button"/></button>  
         </div>
     )
 }
