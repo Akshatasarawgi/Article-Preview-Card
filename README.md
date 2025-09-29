@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/Akshatasarawgi/Article-Preview-Card
-
+-Live Site URL : https://articlepreviewcard12.netlify.app
 
 ## My process
 I created the static site at first, moving onto creating Modal component and Footer component. Then created states to handle the display of modal and footer based on screen size. 
