@@ -24,14 +24,14 @@ Users should be able to:
 - See the social media share links when they click the share icon
 
 ### Screenshot
-![alt text](Desktop.png)
-![alt text](<Desktop Active State.png>)
-![alt text](<Mobile Active State.png>)
+<img width="907" height="382" alt="Desktop" src="https://github.com/user-attachments/assets/c999ee14-610b-4d22-86e8-f2e9b958406b" />
+<img width="944" height="393" alt="Desktop Active State" src="https://github.com/user-attachments/assets/e45b0fd9-cae9-4b07-b195-2a1759ac4024" />
+<img width="383" height="638" alt="Mobile Active State" src="https://github.com/user-attachments/assets/8083056f-103e-4e83-9cdf-ca71b1efbb77" />
 
 ### Links
 
 - Solution URL: https://github.com/Akshatasarawgi/Article-Preview-Card
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
 
 ## My process
 I created the static site at first, moving onto creating Modal component and Footer component. Then created states to handle the display of modal and footer based on screen size. 
